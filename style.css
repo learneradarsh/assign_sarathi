@@ -5,7 +5,47 @@ body
 input[type="text"]
 {
     width:4%;
-    margin-top: 2%;
-    text-decoration: blink;
-    font-size: 2em;
+    font-size: 200%;
+    animation: blinker 1s linear infinite;
+}
+.margin-1
+{
+	position: absolute;
+    top: 8%;
+    right: 10%;
+}
+.margin-2
+{
+	position: absolute;
+    top: 5%;
+    left: 10%;
+}
+.margin-3
+{
+	position: absolute;
+    top: 20%;
+    left: 28%;
+}
+.margin-4
+{
+	position: absolute;
+    top: 28%;
+    left: 55%;
+}
+.margin-5
+{
+	position: absolute;
+    bottom:  15%;
+    right: 20%;
+}
+.margin-6
+{
+	position: absolute;
+    top: 80%;
+    left: 20%;
+}
+
+
+@keyframes blinker {  
+  50% { opacity: 0; }
 }
