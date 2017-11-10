@@ -1,0 +1,11 @@
+body
+{
+	background-image: url(images/img.jpg);
+}
+input[type="text"]
+{
+    width:4%;
+    margin-top: 2%;
+    text-decoration: blink;
+    font-size: 2em;
+}
