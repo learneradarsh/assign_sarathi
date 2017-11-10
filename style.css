@@ -6,7 +6,8 @@ input[type="text"]
 {
     width:4%;
     font-size: 200%;
-    animation: blinker 1s linear infinite;
+    text-align: center;
+    /*animation: blinker 1s linear infinite;*/
 }
 .margin-1
 {
@@ -43,9 +44,9 @@ input[type="text"]
 	position: absolute;
     top: 80%;
     left: 20%;
-}
+ }
 
 
-@keyframes blinker {  
+/*@keyframes blinker {  
   50% { opacity: 0; }
-}
+}*/
